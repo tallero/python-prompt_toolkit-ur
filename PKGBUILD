@@ -8,7 +8,7 @@ pkgver=3.0.41
 pkgrel=1
 pkgdesc='Library for building powerful interactive command lines in Python'
 arch=('any')
-url='https://github.com/jonathanslenders/python-prompt-toolkit'
+url='https://github.com/prompt-toolkit/python-prompt-toolkit'
 license=('BSD')
 depends=(
   'python'
