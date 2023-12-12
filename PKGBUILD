@@ -1,10 +1,11 @@
 # Maintainer: Morten Linderud <foxboron@archlinux.org>
 # Maintainer: George Rawlinson <grawlinson@archlinux.org>
+# Maintainer: Daniel M. Capella <polyzen@archlinux.org>
 # Contributor: Kyle Keen <keenerd@gmail.com>
 # Contributor: Andy Weidenbaum <archbaum@gmail.com>
 
 pkgname=python-prompt_toolkit
-pkgver=3.0.41
+pkgver=3.0.42
 pkgrel=1
 pkgdesc='Library for building powerful interactive command lines in Python'
 arch=('any')
@@ -23,7 +24,7 @@ makedepends=(
   'python-setuptools'
 )
 checkdepends=('python-pytest')
-_commit='b1cb8fad68844495a219afc8747a1efc89eb17dc'
+_commit='87d01078cae7f560b241af7cc0b50cc72dfacd26'
 source=("$pkgname::git+$url#commit=$_commit")
 b2sums=('SKIP')
 
