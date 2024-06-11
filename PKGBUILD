@@ -5,7 +5,7 @@
 # Contributor: Andy Weidenbaum <archbaum@gmail.com>
 
 pkgname=python-prompt_toolkit
-pkgver=3.0.46
+pkgver=3.0.47
 pkgrel=1
 pkgdesc='Library for building powerful interactive command lines in Python'
 arch=('any')
@@ -25,7 +25,7 @@ makedepends=(
 )
 checkdepends=('python-pytest')
 source=("$pkgname::git+$url#tag=$pkgver")
-b2sums=('2afa4a80a0d1df7bee12e75c3dcef5684e32da44d4bc70975302abcd9d01c9742b9494cb0b62ba92b0808800c08cc9140cdb08305a14eeff4ac1216b936a5843')
+b2sums=('0a918fa2dc53da7f21e7a2d5d300a085693f8a1139128360d109220133113f6f5de2dcfc520f40778d16c3e1eada05868cf8b823525b0afe55dbe0702d37a0cd')
 
 build() {
   cd "$pkgname"
